@@ -2,6 +2,9 @@
 #define _BINARY_TREES_H_
 
 #include <stddef.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -34,4 +37,6 @@ int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+int max(int x, int y);
+size_t binary_tree_height(const binary_tree_t *tree);
 #endif /* _BINARY_TREES_H_ */

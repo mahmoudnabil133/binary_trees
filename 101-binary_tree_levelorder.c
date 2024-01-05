@@ -50,7 +50,7 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 	height = binary_tree_height(tree);
 	if (height == 0)
 	{
-		func(tree);
+		func(tree->n);
 		return;
 	}
 

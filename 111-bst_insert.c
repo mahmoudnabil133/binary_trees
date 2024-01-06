@@ -1,7 +1,10 @@
 #include "binary_trees.h"
 /**
- * 
- * 
+ * bst_insert - insert a node
+ * @tree: ptr to tree
+ * @value: value
+ * Return: ptr to Node;
+ *
 */
 bst_t *bst_insert(bst_t **tree, int value)
 {bst_t *bstNode;
